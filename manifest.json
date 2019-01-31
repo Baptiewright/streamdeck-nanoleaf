@@ -1,0 +1,40 @@
+{
+  "Actions": [
+    {
+      "Icon": "resources/pluginIcon",
+      "Name": "Nanoleaf Controller",
+      "States": [
+    {
+      "Image": "resources/actionDefaultImage",
+      "TitleAlignment": "bottom",
+      "FontSize": "10"
+    }
+  ],
+  "SupportedInMultiActions": false,
+  "Tooltip": "Control your Nanoleaf Panels using StreamDeck",
+  "UUID": "com.baptiewright.nanoleaf.action"
+}
+],
+"Author": "Baptiewright Designs",
+"CodePath": "plugin/main.html",
+"Description": "Control your Nanoleaf Panels using StreamDeck",
+"Name": "Nanoleaf Controller",
+"Icon": "resources/pluginIcon",
+"URL": "http://www.baptiewright.com",
+"PropertyInspectorPath": "propertyinspector/main_pi.html",
+"Version": "0.1",
+"OS": [
+{
+  "MinimumVersion" : "10.12",
+  "Platform": "mac"
+},
+  {
+"Platform": "windows",
+"MinimumVersion" : "10"
+    }
+  ],
+"Software":
+{
+  "MinimumVersion" : "4.0.2"
+}
+}
