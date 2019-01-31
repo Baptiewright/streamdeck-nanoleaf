@@ -11,9 +11,15 @@ First install the Plugin and drag an instance to your Stream Deck.  Click on the
 * Auth Token
 * Effects
 
+![Field Screenshot](/images/fields.png?raw=true "Field Screenshot")
+
 You're going to need to obtain your Nanoleaf IP address as there is no current way to search for Nanoleaf devices using JavaScript.  You can get your IP by looking at your router and finding what devices are attached via WiFi.  You want to find the entry with a MAC address that starts **00:55:DA**.  This will be your Nanoleaf controller.
 
+![IP Example](/images/IP.png?raw=true "IP Example")
+
 Once you have your IP, enter it in the field provided.  The "Pair" button will now appear.  Put your Nanoleaf into *Pairing Mode* by holding down the power button on the controller for 5 seconds until the lights start flashing.  Now click **Pair** in the Stream Deck app and the Auth Token field will now be populated.  Congratulations, you have now paired your Stream Deck with your Nanoleaf!
+
+![Pairing](/images/controls.png?raw=true "Pairing")
 
 All that's left is to click **Refresh** next to the Effects field, and the Plugin will populate that field with your available Effects.  Select the one you want from the drop-down, and then press the button on your Stream Deck to test.  Rename the button using the **Title** field as appropriate.  
 
