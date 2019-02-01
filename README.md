@@ -1,15 +1,14 @@
 # Nanoleaf Panel Controller for Elgato Stream Deck
 
-This is an attempt at integrating the Stream Deck SDK with the Nanoleaf API to allow control of Nanoleaf light panels from Stream Deck buttons.
+# V0.3 released 2/1/2019
+
+Now includes 2 different actions (Controls and Effects) and can control Brightness.
 
 # Instructions
 
-First install the Plugin and drag an instance to your Stream Deck.  Click on the instance and you will find 4 fields
+This is an attempt at integrating the Stream Deck SDK with the Nanoleaf API to allow control of Nanoleaf light panels from Stream Deck buttons.
 
-* Title
-* Nanoleaf IP Address
-* Auth Token
-* Effects
+There are 2 different Actions available for this Plugin - Controls and Effects.  Controls are things like On/Off/Brightness and Effects are things like Flow, Snowfall, Fireworks etc.  To get started, drag either a Controls or Effects Action to your deck.  Click on the new instance, and some fields will appear as below : 
 
 ![Field Screenshot](/images/fields.png?raw=true "Field Screenshot")
 
@@ -25,6 +24,8 @@ All that's left is to click **Refresh** next to the Effects field, and the Plugi
 
 The **Details** field should populate with any errors during Pairing or Refreshing.  If you find the button stops working, check to make sure your Nanoleaf IP hasn't changed - there is currently no way to set a static IP on Nanoleaf.  
 
-Also in the **Effects** drop-down are On and Off, you can add buttons to perform these functions accordingly.  If you set a button to an effect and your Nanoleaf is off, it will automatically power on with you try to activate that effect with the Stream Deck.
+If you choose a Controls Action, the fields shown will be mostly the same except for the Controls dropdown, and the option Value field.  If you choose On or Off then the button will perform that action.  If you choose Brightness- or Brightness+ then the button will raise or lower the Brightness by the % value specified.  Lastly if you just choose Brightness the button will set the Nanoleaf Brightness to that exact % level (useful if you want to set Brightness to exactly 50% or something like that).  
 
-Last thing, if you want more than one button (as most of us do) then just copy/paste the button or the IP/Auth Token, you don't need to re-pair the systems when you create a new button.  
+Last thing, if you want more than one button (as most of us do) then just copy/paste the button or the IP/Auth Token, you don't need to re-pair the systems when you create a new button even if they are different Actions.  The IP and Token will be the same.  
+
+Thanks, and enjoy!
