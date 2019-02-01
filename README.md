@@ -2,7 +2,7 @@
 
 # V0.3 released 2/1/2019
 
-Now includes 2 different actions (Controls and Effects) and can control Brightness.
+Now includes 2 different actions (Controls and Effects) and can control Brightness.  The Plugin also works in Multi-Actions now, so you can perform multiple things like turning Nanoleaf On, set the Brightness to 50% and set the Effect to Flame all with one Stream Deck button.
 
 # Instructions
 
